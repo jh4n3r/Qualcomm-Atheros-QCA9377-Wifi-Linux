@@ -1,22 +1,18 @@
 # Qualcomm-Atheros-QCA9377-Wifi-Linux
-Drivers and Firmware for Qualcomm Atheros QCA9377 Driver 0042 [rev. 30]. 
-This repo also contains PKGBUILD for Arch Distribution and a generic bash script for any GNU\Linux distro.
+Controladores y firmware para Qualcomm Atheros QCA9377 Driver 0042 [rev. 30]. Este repositorio también contiene PKGBUILD para Arch Distribution y un script bash genérico para cualquier distribución GNU\Linux.
 
-***This repo is depreciated and not under maintenance. Developers are welcome to maintain this repo***
+Este reparto está fuerna de mantenimiento. 
 
-##For Arch Linux Distro
-makepkg -i
+##Para la distribución Arch Linux makepkg -i
 
-##For Any Distro
-chmod +x install.sh
+##Para cualquier distribución chmod +x install.sh
 
-./install.sh
+./instalar.sh
 
-###For Kernel 4.4-rc2
-Compile your own kernel by applying qca9377_hw1.1_for_linux_4.4-rc2.patch to the kernel source code.
+###Para Kernel 4.4-rc2 Compile su propio kernel aplicando qca9377_hw1.1_for_linux_4.4-rc2.patch al código fuente del kernel.
 
-Use distribution specific kernel compilation steps (Read it more about it on your distribution wiki pages).
+Use los pasos de compilación del kernel específicos de la distribución (lea más sobre esto en las páginas wiki de su distribución).
 
 chmod +x install_for_kernel_4.4-rc2.sh
 
-./install_for_kernel_4.4-rc2.sh 
+./instalar_para_kernel_4.4-rc2.sh
